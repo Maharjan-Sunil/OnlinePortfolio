@@ -124,4 +124,20 @@ $(document).ready(function(){
         });
 
 });	
+
+
+//excel support
+	function countData() {
+	var data = $("#data").val();
+	if (data != "") {
+		var length = data.split("+").length;
+		$("#showCount")
+		.css("display", "block")
+		.text("The number of data in given text is " + length);
+	}
+	}
+
+	function enableButton() {
+	$("#countButton").prop("disabled", false);
+	}
 	

@@ -857,4 +857,12 @@ span.single-timeline-horizontal {
 .ads{
     border:solid
 }
+
+button{
+        display:inline-block;
+        text-decoration:none;
+        color: #FFA500;
+        font-size:16px;
+        padding:0;
+    }
 /*========================Thank you=================
